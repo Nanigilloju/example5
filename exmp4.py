@@ -1,4 +1,9 @@
-st.title(":bar_chart: Sample SuperStore EDA")
+import streamlit as st
+import plotly.express as px
+import pandas as pd
+
+
+st.title(" :bar_chart: Sample SuperStore EDA")
 df = pd.read_excel("Sample - Superstore.xls")
 
 col1, col2 = st.columns((2))
